@@ -4,11 +4,12 @@
 
 Main app will write comma seperated values file into 'project/FlashcardData Microservice Input' folder. 
 Once the file written, main app will make a subprocess call to microservice A to initate the microservice script. This is preferable to having it run on loop looking for new files as it wastes less resources. 
+Main app does not need to give the filename a specific name, the microservice will just read in the latest file that was written to the directory specified above. 
 
 call: 
 subprocess.run(["python", "microservice_A.py"])
 
-Main app needs to write csv file in this format  with data types, str, int, int: 
+Main app needs to write csv file in this format  with data types, str, int, int
 
 front of card,level,score
 
