@@ -19,6 +19,7 @@ Main app needs to write csv file with columns (front of card), (level), (score) 
 Microservice will read this file as a .txt file, reading only the latest file that was written to the folder: 
 
 example code: 
+
           # set directories
           root_directory = os.getcwd()
           input_directory = root_directory + "\\FlashcardData Microservice Input"
