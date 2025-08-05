@@ -9,7 +9,7 @@ subprocess.run(["python", "microservice_A.py"])
 
 
 
-## ** How to recieve data from the microservice :  **
+## **How to recieve data from the microservice:**
 
 Subprocess call will output a variety of value or type errors if there are issues with the input file, such as invalid data types, etc. 
 If subprocess successfully runs, it will generate an output file in 'Project\Microservice A\FlashcardData Microservice Output' directory. 
