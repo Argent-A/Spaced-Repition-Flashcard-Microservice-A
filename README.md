@@ -1,6 +1,7 @@
 
 
-How to request data from the microservice : 
+**How to request data from the microservice : **
+
 Main app will write comma seperated values file into 'project/FlashcardData Microservice Input' folder. 
 Once the file written, main app will make a subprocess call to microservice A. 
 
@@ -8,7 +9,8 @@ subprocess.run(["python", "microservice_A.py"])
 
 
 
-How to recieve data from the microservice : 
+**How to recieve data from the microservice : **
+
 Subprocess call will output a variety of value or type errors if there are issues with the input file, such as invalid data types, etc. 
 If subprocess successfully runs, it will generate an output file in 'Project\Microservice A\FlashcardData Microservice Output' directory. 
 
