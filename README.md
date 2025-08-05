@@ -4,14 +4,15 @@
 
 Main app will write comma seperated values file into 'project/FlashcardData Microservice Input' folder.
 
-with open('FlashcardData Microservice Input/Flashcard Data.txt', 'w') as output_file:
-    output_file.write(data)
+    with open('FlashcardData Microservice Input/Flashcard Data.txt', 'w') as output_file:
+        output_file.write(data)
 
 Once the file written, main app will can make subprocess run to microservice A to initate the microservice script. This is preferable to having it run on loop looking for new files as it wastes less resources. 
 Main app does not need to give the filename a specific name, the microservice will just read in the latest file that was written to the directory specified above. 
 
 you can directly run the microservice by <microservice_A.py> - replace with your own filename for the service. : 
-subprocess.run(["python", "microservice_A.py"])
+
+    subprocess.run(["python", "microservice_A.py"])
 
 
 
@@ -44,9 +45,9 @@ example code:
 ## **How to recieve data from the microservice:**
 Once the microservice has run the output file is a txt file with values in csv format, able to be consumed by the main service. In this scenario I used the pandas module to read the csv file: 
 
-os.chdir(os.getcwd() + "\\FlashcardData Microservice Output") 
-os.listdir()
-df = pd.read_csv('processed_Flashcard Data.txt')
+    os.chdir(os.getcwd() + "\\FlashcardData Microservice Output") 
+    os.listdir()
+    df = pd.read_csv('processed_Flashcard Data.txt')
 
 
 
