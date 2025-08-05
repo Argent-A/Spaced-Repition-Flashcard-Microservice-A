@@ -1,0 +1,31 @@
+front of card,level,score,new_level,review_date
+what is the capital of France?,6,2,7,2025-10-06 02:14:55.418787
+what is the capital of China?,5,2,6,2025-09-04 02:14:55.420193
+where is Rhodesia located? ,1,2,2,2025-08-05 02:14:55.420315
+what is the powerhouse of the cell?,4,0,3,2025-08-03 02:14:55.420413
+what is little endian versus big endian?,2,1,2,2025-08-04 02:14:55.420506
+what is a linked list?,1,1,1,2025-08-03 02:14:55.420601
+what is the DOM in web development?,8,1,8,2025-10-06 02:14:55.420691
+what does HTTP stand for?,1,0,0,2025-08-03 02:14:55.420785
+what is an API?,4,1,4,2025-08-07 02:14:55.420880
+what does SQL stand for?,4,0,3,2025-08-03 02:14:55.420970
+what does CSS stand for?,8,0,7,2025-08-03 02:14:55.421056
+what is JSON?,7,2,8,2025-12-09 02:14:55.421146
+what is recursion in programming?,1,2,2,2025-08-05 02:14:55.421237
+what is a stack vs a queue,4,0,3,2025-08-03 02:14:55.421326
+what is an interpreted language,5,2,6,2025-09-04 02:14:55.421413
+what is a compiled language,4,1,4,2025-08-07 02:14:55.421499
+what does the DNS do,4,0,3,2025-08-03 02:14:55.421587
+explain depth first search,5,2,6,2025-09-04 02:14:55.421672
+explain breadth first search,4,0,3,2025-08-03 02:14:55.421759
+what is Big O notation,10,0,9,2025-08-03 02:14:55.421844
+what is a primary key?,6,0,5,2025-08-03 02:14:55.421928
+what is a pull request,4,2,5,2025-08-19 02:14:55.422012
+what is Git,0,1,0,2025-08-03 02:14:55.422099
+what is a foreign key,6,2,7,2025-10-06 02:14:55.422185
+what is a lamda function,5,2,6,2025-09-04 02:14:55.422273
+what is inheritance in OOP,8,1,8,2025-10-06 02:14:55.422359
+explain child in OOP,0,0,0,2025-08-03 02:14:55.422453
+what is polymorphism,1,0,0,2025-08-03 02:14:55.422541
+what is encapsulation,0,1,0,2025-08-03 02:14:55.422628
+what is an abstraction,8,1,8,2025-10-06 02:14:55.422716

@@ -1,0 +1,31 @@
+front of card,level,score
+what is the capital of France?,6,2
+what is the capital of China?,5,2
+where is Rhodesia located? ,1,2
+what is the powerhouse of the cell?,4,0
+what is little endian versus big endian?,2,1
+what is a linked list?,1,1
+what is the DOM in web development?,8,1
+what does HTTP stand for?,1,0
+what is an API?,4,1
+what does SQL stand for?,4,0
+what does CSS stand for?,8,0
+what is JSON?,7,2
+what is recursion in programming?,1,2
+what is a stack vs a queue,4,0
+what is an interpreted language,5,2
+what is a compiled language,4,1
+what does the DNS do,4,0
+explain depth first search,5,2
+explain breadth first search,4,0
+what is Big O notation,10,0
+what is a primary key?,6,0
+what is a pull request,4,2
+what is Git,0,1
+what is a foreign key,6,2
+what is a lamda function,5,2
+what is inheritance in OOP,8,1
+explain child in OOP,0,0
+what is polymorphism,1,0
+what is encapsulation,0,1
+what is an abstraction,8,1
