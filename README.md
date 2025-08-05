@@ -7,7 +7,7 @@ Main app will write comma seperated values file into 'project/FlashcardData Micr
     with open('FlashcardData Microservice Input/Flashcard Data.txt', 'w') as output_file:
         output_file.write(data)
 
-Once the file written, main app can make subprocess run to microservice A to initate the microservice script. This is preferable to having it run on loop looking for new files as it wastes less resources. 
+Once the file written, the main app can make a subprocess run to microservice A to initate the microservice script. This is preferable to having it run on loop looking for new files as it wastes less resources. 
 Main app does not need to give the filename a specific name, the microservice will just read in the latest file that was written to the directory specified above. 
 
 you can directly run the microservice by <microservice_A.py> - replace with your own filename for the service. : 
