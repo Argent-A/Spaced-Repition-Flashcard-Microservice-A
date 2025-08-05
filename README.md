@@ -49,6 +49,7 @@ Once the microservice has run the output file is a txt file with values in csv f
     os.listdir()
     df = pd.read_csv('processed_Flashcard Data.txt')
 
+<img width="821" height="640" alt="Screenshot 2025-08-04 233202" src="https://github.com/user-attachments/assets/25def942-a358-49cc-92c3-77391e170594" />
 
 
-<img width="805" height="662" alt="image" src="https://github.com/user-attachments/assets/0e0bb31e-7909-4315-92e6-887c5330a004" />
+
