@@ -11,8 +11,11 @@ subprocess.run(["python", "microservice_A.py"])
 Main app needs to write csv file in this format  with data types, str, int, int: 
 
 front of card,level,score
+
 what is the capital of France?,6,2
+
 what is the capital of China?,5,2
+
 where is Rhodesia located? ,1,2
 
 
